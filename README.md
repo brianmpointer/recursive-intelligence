@@ -12,79 +12,67 @@ Instead of flat answers, Claude (or compatible models) decomposes prompts into r
 
 ---
 
-## 🔁 Core Features
+## ✨ Core Features
 
-- **Recursive Logic Processing** with configurable pass thresholds
-- **Fork Detection & Branching Visualization**
-- **Multi-Lens Reasoning Engine** (ethical, systems, psychological, etc.)
-- **ChainVault-Ready Memory Model** (for internal expert recall)
-- **Watchdog Modules** for ethical triggers, recursion failure, or ambiguity
-- **Interactive Exploration** for users to view, backtrack, or redirect reasoning
-
----
-
-## 📐 Architecture Highlights
-
-- Built around a **layered AI interface** (Reasoning, Validation, Interaction)
-- Implements **fork visibility** to show competing reasoning paths
-- Supports **simulation trees**, where outcomes shift based on key variable forks
-- Enables **question clarification and reframing** before recursion starts
-- Adaptable to web or mobile through external diagramming interfaces (Mermaid.js, NetworkX)
+- **Recursive Logic Processing** with configurable pass thresholds  
+- **Fork Detection & Branching Visualization**  
+- **Multi-Lens Reasoning Engine** (ethical, systems, psychological, etc.)  
+- **ChainVault-Ready Memory Model** (for internal expert recall)  
+- **Watchdog Modules** for ethical triggers, recursion failure, or ambiguity  
+- **Interactive Exploration** for users to view, backtrack, or redirect reasoning  
 
 ---
 
-## 💡 Example Use Cases
+## 🧱 Architecture Highlights
+
+- Built around a **layered AI interface** (Reasoning, Validation, Interaction)  
+- Implements fork **visibility** to show competing reasoning paths  
+- Supports **simulation trees**, where outcomes shift based on key variable forks  
+- Enables **question clarification and reframing** before recursion starts  
+- May be extended to web or mobile through external diagramming interfaces (MermaidJS, NetworkX)  
+
+---
+
+## 🔍 Example Use Cases
 
 - Should AI be transparent? → Show forks between regulatory vs. innovation paths  
 - Should I move to a new city? → Run personal, economic, psychological lenses  
-- Should governments deploy lethal autonomous weapons? → Explore ethical conflicts
+- Can governments deploy lethal autonomous weapons? → Explore ethical conflicts  
 
 ---
 
-## 🧪 How to Use
+## 📁 Code Snippets in Context
 
-> This repo currently provides the architectural design and reasoning structure only. Future releases may include a visualization module or inference wrapper.
+The file [`RCRS_for_Claude_Architecture.docx`](./RCRS_for_Claude_Architecture.docx) contains the full design spec, with embedded JSX code for posterity and clarity.
 
-To test the ideas:
-1. Review the full RCRS architecture document in `/docs`
-2. Fork this repo and build an inference agent or wrapper
-3. Visualize reasoning trees using Mermaid or NetworkX
-4. Share forks and decisions with others for collaborative insight
+To work directly with the source code:
+- See [`/src/ReasoningTreeGenerator.jsx`](./src/ReasoningTreeGenerator.jsx)
+- It provides an interactive reasoning tree using `react-d3-tree`
+- Includes labeled lenses (Ethical, Empirical, Systems, etc.)
 
----
-
-## ⚖️ License
-
-Creative Commons Attribution-NonCommercial 4.0 International  
-You may use and remix this work non-commercially with attribution.  
-Commercial licensing available upon request.
+More components will follow as the system develops.
 
 ---
 
-## 💬 Creator
+## 📜 License
 
-Developed by **Brian Pintero**  
-For questions, feedback, or interest in collaboration:
-📫 [GitHub Profile](https://github.com/brianpointer)
+[Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/)
 
----
-
-## 💸 Optional Monetization Pathways
-
-This system is built for open exploration, but monetization options may include:
-- Premium hosted inference sandbox
-- API access to structured fork trees
-- AI reasoning audits for compliance
-- Educational or decision support licensing
+You’re free to share and adapt this work **non-commercially**, with attribution. No additional restrictions apply.
 
 ---
 
-## 🔮 Future Work
+## 🧑‍💻 Contact & Vision Planner
 
-- Live interactive web reasoning map (forkable trees)
-- Real-time update of forks based on live context
-- Shared “proof chains” between users or orgs
-- Plugin integration with Claude, GPT, or other models
+Created by **Brian Pintero**  
+🧠 Architecture & Recursive Design: [@brianpointer](https://github.com/brianpointer)
+
+This project will evolve into a full reasoning platform — potentially including hosted tools, sandbox demos, and real-time recursive agents.
 
 ---
 
+## 🚧 Future Work
+
+- Publish interactive web reasoning tree (via `Vite` or `React`)
+- Add support for Claude, GPT-4, or user models
+- Extend ChainVault integration
