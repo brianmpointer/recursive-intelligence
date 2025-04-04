@@ -64,7 +64,7 @@ You’re free to share and adapt this work **non-commercially**, with attributio
 
 ## 🧑‍💻 Contact & Vision Planner
 
-Created by **Brian Pintero**  
+Created by **Brian Pointer**  
 🧠 Architecture & Recursive Design: [@brianpointer](https://github.com/brianpointer)
 
 This project will evolve into a full reasoning platform — potentially including hosted tools, sandbox demos, and real-time recursive agents.
